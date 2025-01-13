@@ -70,7 +70,7 @@ ros2 launch plansys2_patrol_navigation_example patrol_example_fakesim_launch.py
 ```
 Which initializes the pddl domain file and the nodes created to excecute the durative actions.
 
-With the following comman the Problem is initialized.
+With the following command the Problem is initialized.
 ```bash
 ros2 run plansys2_patrol_navigation_example patrolling_controller_node
 ```
