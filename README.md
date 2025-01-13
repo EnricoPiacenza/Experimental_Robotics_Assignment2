@@ -53,7 +53,24 @@ Now it is possible to run
 ```bash
 ros2 launch robot_urdf gazebo2.launch
 ```
-In order to run the controller with the PDDL problem, open another terminal and run it
+This launch file is used to correctly set up the Gazebo and Rvizz2 simulations, the simulation world used is ```Assignment2.world``` and the robot model used is ```robot5.xacro```. In addition 3 other launch files are started:
+
+```
+ros2 launch slam_toolbox online_sync_launch.py
+```
+Which initializes the slam algorithm.
+
+```
+ros2 launch nav2_bringup navigation_launch.py
+```
+Which initializes the navigation algorithm.
+
+```
+ros2 launch plansys2_patrol_navigation_example patrol_example_fakesim_launch.py
+```
+Which initializes the pddl domain file and the nodes created to excecute the durative actions.
+
+With the following comman the Problem is initialized.
 ```bash
 ros2 run plansys2_patrol_navigation_example patrolling_controller_node
 ```
