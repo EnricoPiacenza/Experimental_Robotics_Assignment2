@@ -1,7 +1,7 @@
 # Experimental_Robotics_Assignment2
 This is the README.MD file for the second assignment of the course Experimental Robotics.
 
-## AUTORI 👨‍💻
+## AUTHORS 👨‍💻
 * [Nicolas Bravi](https://github.com/NicolasBravi01) (s6402442)
 * [Ilaria Colomba](https://github.com/ilacolo) (s4829201)
 * [Enrico Piacenza](https://github.com/EnricoPiacenza) (s4878469)
