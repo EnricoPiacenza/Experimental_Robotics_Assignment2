@@ -81,10 +81,8 @@ ros2 run plansys2_patrol_navigation_example patrolling_controller_node
 
 <div id='Video'/>
 
-<video controls>
-  <source src="sim.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+You can see a video of the simulation at the following link:
+https://www.youtube.com/watch?v=yhsrMFM95Ao
 
 ## Video 🎬
 
