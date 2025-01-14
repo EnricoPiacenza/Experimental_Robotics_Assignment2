@@ -20,10 +20,10 @@ This is the README.MD file for the second assignment of the course Experimental 
 ## INTRODUCTION 💻📝
 In a complex environment simulated in Gazebo, four markers with different IDs are placed. (look [https://github.com/CarmineD8/aruco_ros](https://github.com/CarmineD8/aruco_ros). In order to capture the images that for the scanning of the marker for ID's detection, the following waypoints are given:
  
-* WP 1: x = -7.0, y = 1.5 (Marker 15)
-* WP 2: x = 6.0, y = 2.0 (Marker 12)
-* WP 3: x = -3.0, y = -8.0 (Marker 11)
-* WP 4: x = 7.0, y = -5.0 (Marker 13)
+* WP 1: x = 6.0, y = 2.0 (Marker 11)
+* WP 2: x = 7.0, y = -5.0 (Marker 12)
+* WP 3: x = -3.0, y = -8.0 (Marker 13)
+* WP 4: x = -7.0, y = 1.5 (Marker 15)
   
 The goal is to develop a ROS2 package that lets a mobile robot endowed with a camera and a laser scanner move the robot to the waypoint corresponding to the lowest ID.
 PlanSys2 is required to plan the robot's actions.
