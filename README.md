@@ -49,7 +49,7 @@ Now, you can go back to the ros2_ws path and build
 cd ..
 colcon build
 ```
-You can now run
+In order to correctly simulate the program, you need to open the following five terminals:
 ```bash
 ros2 launch robot_urdf gazebo2.launch.py
 ```
