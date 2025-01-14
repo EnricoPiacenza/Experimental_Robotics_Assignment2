@@ -86,6 +86,8 @@ ros2 run plansys2_patrol_navigation_example patrolling_controller_node
 You can see a video of the simulation at the following link:
 https://www.youtube.com/watch?v=yhsrMFM95Ao
 
+[![Video of the run](https://www.youtube.com/watch?v=yhsrMFM95Ao)
+
 <div id='pddl'/>
  
 ## PDDL 🤖
