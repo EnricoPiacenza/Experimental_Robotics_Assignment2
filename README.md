@@ -56,7 +56,7 @@ ros2 launch robot_urdf gazebo2.launch.py
 This launch file is used to correctly set up the Gazebo and Rvizz2 simulations, the simulation world used is ```Assignment2.world``` and the robot model used is ```robot5.xacro```. In addition 3 other launch files are started:
 
 ```
-ros2 launch slam_toolbox online_sync_launch.py
+ros2 launch slam_toolbox online_async_launch.py
 ```
 Which initializes the slam algorithm.
 
